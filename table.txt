@@ -1,0 +1,61 @@
+DB SCHEMA
+
+TABLES
+1. User
+2. Post
+3. PostComment
+4. PostLike
+5. Follow
+
+User Table
+
+1. id
+2. email
+3. username (PK)
+4. password
+5. first_name
+6. last_name
+7. created_at
+8. updated_at
+9. bio
+
+APIs for User Model:
+1. register
+2. login
+3. get user by id
+4. follow/unfollow an user
+
+
+
+
+Post Table
+
+1. id
+2. title
+3. description
+4. created_at
+5. updated_at
+6. user
+
+APIs for Post Model:
+1. CRUD post
+2. like a post
+3. comment on a post
+
+PostLike Table:
+1. post
+2. user
+
+Comment Table:
+1. id
+2. comment_text
+3. user
+4. created_at
+5. updated_at
+
+
+
+
+
+
+
